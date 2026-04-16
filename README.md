@@ -137,7 +137,6 @@ find build/classes -type f -delete
 javac --class-path 'lib/*' -d build/classes $(find src/main/java -name '*.java')
 java --class-path 'build/classes:src/main/resources:lib/*' com.cloudkitchen.app.SmokeTest
 ```
-
 ## Technology stack
 
 - Java 17
