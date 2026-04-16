@@ -1,0 +1,224 @@
+.root {
+    -fx-font-family: "Avenir Next", "Segoe UI", sans-serif;
+    -fx-background-color: linear-gradient(to bottom right, #f4efe6, #eef4f0);
+    -fx-text-fill: #233034;
+}
+
+.app-shell {
+    -fx-background-color: transparent;
+}
+
+.admin-shell {
+    -fx-background-color: linear-gradient(to bottom right, #eef2ef, #f6efe5);
+}
+
+.customer-shell {
+    -fx-background-color: linear-gradient(to bottom right, #f4efe6, #eef4f0);
+}
+
+.login-shell {
+    -fx-background-color: linear-gradient(to bottom right, #f3eadf, #e7f2ec);
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: transparent;
+}
+
+.tab-pane .tab {
+    -fx-background-color: rgba(255, 255, 255, 0.72);
+    -fx-background-radius: 14 14 0 0;
+    -fx-padding: 10 18 10 18;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #ffffff;
+}
+
+.tab-pane .tab-label {
+    -fx-text-fill: #33464a;
+    -fx-font-size: 13px;
+    -fx-font-weight: 700;
+}
+
+.eyebrow {
+    -fx-text-fill: #8c5a30;
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+}
+
+.page-title {
+    -fx-text-fill: #193339;
+    -fx-font-size: 28px;
+    -fx-font-weight: 800;
+}
+
+.page-subtitle {
+    -fx-text-fill: #53666c;
+    -fx-font-size: 14px;
+}
+
+.metric-card,
+.card,
+.mini-card,
+.list-view,
+.tab-pane .tab-content-area {
+    -fx-background-color: rgba(255, 255, 255, 0.88);
+    -fx-background-radius: 18;
+    -fx-border-color: rgba(42, 69, 73, 0.08);
+    -fx-border-radius: 18;
+}
+
+.card {
+    -fx-effect: dropshadow(gaussian, rgba(36, 58, 55, 0.07), 14, 0.2, 0, 5);
+}
+
+.metric-card {
+    -fx-padding: 18;
+    -fx-effect: dropshadow(gaussian, rgba(36, 58, 55, 0.08), 14, 0.2, 0, 6);
+}
+
+.metric-label {
+    -fx-text-fill: #6d7e80;
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+}
+
+.metric-value {
+    -fx-text-fill: #18363b;
+    -fx-font-size: 28px;
+    -fx-font-weight: 800;
+}
+
+.metric-hint,
+.muted-text,
+.section-subtitle {
+    -fx-text-fill: #6a797d;
+    -fx-font-size: 12px;
+}
+
+.section-title {
+    -fx-text-fill: #20373c;
+    -fx-font-size: 20px;
+    -fx-font-weight: 800;
+}
+
+.selection-label,
+.good-status,
+.warning-status,
+.recipe-text {
+    -fx-font-size: 13px;
+}
+
+.customer-hero {
+    -fx-background-color: linear-gradient(to right, rgba(244, 237, 227, 0.96), rgba(232, 242, 236, 0.96));
+}
+
+.admin-hero {
+    -fx-background-color: linear-gradient(to right, rgba(230, 238, 235, 0.97), rgba(244, 238, 228, 0.97));
+}
+
+.customer-hero-note {
+    -fx-text-fill: #8c5a30;
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+}
+
+.admin-hero-note {
+    -fx-text-fill: #31545a;
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+}
+
+.good-status {
+    -fx-text-fill: #21724f;
+}
+
+.warning-status {
+    -fx-text-fill: #b24b1a;
+}
+
+.row-title {
+    -fx-text-fill: #1f3538;
+    -fx-font-size: 15px;
+    -fx-font-weight: 700;
+}
+
+.list-view {
+    -fx-padding: 10;
+}
+
+.list-view .list-cell {
+    -fx-background-color: transparent;
+    -fx-padding: 8 0 8 0;
+}
+
+.list-row {
+    -fx-background-color: linear-gradient(to right, rgba(246, 243, 237, 0.95), rgba(236, 245, 241, 0.95));
+    -fx-background-radius: 16;
+    -fx-padding: 14;
+    -fx-border-color: rgba(32, 55, 60, 0.06);
+    -fx-border-radius: 16;
+}
+
+.menu-card {
+    -fx-padding: 18;
+}
+
+.admin-form-card {
+    -fx-min-width: 340;
+    -fx-max-width: 360;
+}
+
+.menu-course {
+    -fx-text-fill: #8c5a30;
+    -fx-font-size: 11px;
+    -fx-font-weight: 800;
+    -fx-letter-spacing: 1px;
+}
+
+.button {
+    -fx-background-radius: 12;
+    -fx-cursor: hand;
+    -fx-font-weight: 700;
+    -fx-padding: 10 16 10 16;
+}
+
+.primary-button {
+    -fx-background-color: linear-gradient(to right, #264653, #2a9d8f);
+    -fx-text-fill: white;
+}
+
+.secondary-button {
+    -fx-background-color: #d4ddd9;
+    -fx-text-fill: #5d6d70;
+}
+
+.text-field,
+.spinner,
+.text-area {
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-padding: 10 12 10 12;
+}
+
+.text-area .content {
+    -fx-background-radius: 12;
+}
+
+.chip-ok,
+.chip-warning {
+    -fx-background-radius: 999;
+    -fx-padding: 6 10 6 10;
+    -fx-font-size: 11px;
+    -fx-font-weight: 800;
+}
+
+.chip-ok {
+    -fx-background-color: rgba(46, 164, 112, 0.15);
+    -fx-text-fill: #1f7a4d;
+}
+
+.chip-warning {
+    -fx-background-color: rgba(224, 105, 16, 0.16);
+    -fx-text-fill: #b24b1a;
+}
